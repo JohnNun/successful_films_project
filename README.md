@@ -58,7 +58,7 @@ With the data narrowed down to the top 5 genres, **we can get a better understan
 The current data has films that were released between 2010 and 2019, by **running these same tests on data containing films from 2020 to 2025**, it could help in finding the current movie genre trend, and depending on the results of both tests it could help solidify the recommended genre(s).
 
 ## For More Information
-Full data analysis in [Jupyter Notebook](successful_films_notebook.ipynb) or review the [presentation](Successful_Film_Genres_Presentation.pdf)
+Full data analysis in [Jupyter Notebook](successful_films_notebook.ipynb) or review the [presentation](Successful_Film_Genres_Presentation.pdf).
 
 ## Repository Structure
 - images
