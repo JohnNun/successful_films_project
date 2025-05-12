@@ -1,3 +1,6 @@
+# Successful Film Genres
+By Jonathan Nunez
+
 # Business Understanding
 The company is looking into expanding into the box office market. The company sees the potential income in creating their own original video content through the use of their own new movie studio. I was tasked with exploring what types of films are currently doing the best at the box office. As the company is looking for the genre(s) that are doing the best, I plan to narrow this down by finding which genre(s) yields the highest return on investment on average.
 
@@ -23,17 +26,22 @@ In the Total Return on Investment chart, the top 5 genres with highest average r
 ![Total Return](images/total_return.jpeg)
 
 # Conclusions
+Through the analysis of this data, we are able to answer the following questions:
+
 **What are the top genres recommended for creating a first film?**
+
 The top 5 genres I would recommend the company look into for a possible first film would be **Mystery, Horror, Thriller, Romance, and Sci-fi, genres.** Overall these 5 genres appear to give the best return in a domestic as well as a foreign market if the company wants to release their film overseas.
 
 **Which genre(s) has the highest return on investment?**
+
 Overall, the one genre that had the highest return on investment is the **Mystery** genre. In the domestic market this genre averaged at nearly a **500% return**. In the foreign market, this genre RoI nearly doubled from a 500% return to an **800% return**.
 
 **Are the top genres consistent throughout both domestic and foreign markets?**
+
 For the most part, the top genres in the domestic and foreign markets are consistent with **Mystery, Horror, and Thriller** being the top three. Spots four and five would change between **Documentary, Romance, Sci-fi, and Animation** in the domestic and foreign markets. Ultimately **Romance, and Sci-fi** made it to the top 5 as overall these two genres had the highest return.
 
 ## Limitations
-Some limitations with these datasets is that while in the end they do have over 1000 films in common, there was a lot of data that had to be dropped due to simply not having the genre(s) of the film, and by dropping these values there is a possibility of missing out on genres that did extremely well or very poorly that could have changed the outcome. 
+While in the end, these data sets do have over 1000 films in common, there was a lot of data that had to be dropped due to simply not having the genre(s) of the film, and by dropping these values there is a possibility of missing out on genres that did extremely well or very poorly that could have changed the outcome. 
 
 Another limitation I found with the data was that some films have the same title, but are made by different studios in foreign countries, so any film(s) that happen to have the same title could have had their values, gross values specifically, changed leading to possible inaccuracies for genres value averages.
 
@@ -43,8 +51,17 @@ The top 5 genres with the highest return on investment are **Mystery, Horror, Th
 Also, the data sets used for this project included films from around the world. Depending on what the primary market the company's focus is on, I would recommend gathering data for that specific market and running the tests again as there is always the **possibility that a film will do well in one market but fail in a different market.**
 
 ## Next Steps
-Further analyzing the data could help in giving a better understanding of the success rate of a genre. In this project the main focus was narrowing down the genres and this was done by finding the return on investment. Now that we have the top genres, the next steps would be to narrow the dataset to these specific genres, and research the films listed in these genres. Finding out what made these films successful or even failures.
+**Further analyzing the data could help in giving a better understanding of the success rate of a genre.** In this project the main focus was narrowing down the genres and this was done by finding the return on investment. Now that we have the top genres, the next steps would be to **narrow the dataset to these specific genres, and research the films listed in these genres.** Finding out what made these films successful or even failures.
 
-With the data narrowed down to the top 5, we can get a better understanding of how a specific genre has done over a set period. For example, throughout the data, the mystery genre didn’t have the highest gross both domestic and foreign, but it did have the highest RoI overall. Is this result because the genre is becoming popular over the years, or are there a few outlier films that just did very well overall and boosted this genre to the top?
+With the data narrowed down to the top 5 genres, **we can get a better understanding of how a specific genre has done over a set period.** For example, throughout the data, the **mystery genre didn’t have the highest gross both domestic and foreign, but it did have the highest RoI overall.** Is this result because the genre is becoming popular over the years, or are there a few outlier films that just did very well overall and boosted this genre to the top?
 
-The current data has films that were released between 2010 and 2019, by running these same tests on data containing films from 2020 to 2025, it could help in finding the current movie genre trend, and depending on the results of both tests it could help solidify the genre(s) the new studio can go with for its first film.
+The current data has films that were released between 2010 and 2019, by **running these same tests on data containing films from 2020 to 2025**, it could help in finding the current movie genre trend, and depending on the results of both tests it could help solidify the recommended genre(s).
+
+## For More Information
+Full data analysis in [Jupyter Notebook](successful_films_notebook.ipynb) or review the [presentation](Successful_Film_Genres_Presentation.pdf)
+
+## Repository Structure
+- images
+- README.md
+- [Successful_Film_Genres_Presentation](Successful_Film_Genres_Presentation.pdf)
+- [successful_films_notebook](successful_films_notebook.ipynb)
