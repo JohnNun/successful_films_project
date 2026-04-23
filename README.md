@@ -1,5 +1,7 @@
 # Successful Film Genres
-By Jonathan Nunez
+![](denise-jans-Lq6rcifGjOU-unsplash.jpg)
+###### Photo by [Denise Jans](https://unsplash.com/@dmjdenise?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/four-reel-films-lying-on-white-table-Lq6rcifGjOU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+      
 
 # Business Understanding
 The company is looking into expanding into the box office market. The company sees the potential income in creating their own original video content through the use of their own new movie studio. I was tasked with exploring what types of films are currently doing the best at the box office. As the company is looking for the genre(s) that are doing the best, I plan to narrow this down by finding which genre(s) yields the highest return on investment on average.
